@@ -10,9 +10,10 @@ const ballNum = 20;
 const connectionOpacityDistance = 500;
 
 const container = document.getElementById('container');
+console.log(container);
 
 for (i = 0; i < ballNum; i++) {
-    var ballDiv = document.createElement("div");
+    let ballDiv = document.createElement("div");
     ballDiv.classList.add('ball');
     let ballFillDiv = document.createElement("div");
     ballFillDiv.classList.add('fill');
