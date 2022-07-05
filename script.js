@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const connectionOpacityDistance = 500;
 
     const container = document.getElementById('container');
-    console.log(container);
+    console.log(document.getElementById('container'));
 
     for (i = 0; i < ballNum; i++) {
         let ballDiv = document.createElement("div");
